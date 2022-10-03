@@ -11,7 +11,7 @@
   
   <title>
     
-      archive_a: 2022/10 
+      加密测试 
       
       
       |
@@ -102,50 +102,134 @@
 
 
       <div class="flex-container">
-        <!-- 归档页，展示本站所有文章，按照年份降序归类，url形式：https://yoursite/archives/ -->
+        <!-- 文章详情页，展示文章具体内容，url形式：https://yoursite/文章标题/ -->
+<!-- 同时为「标签tag」，「朋友friend」，「分类categories」，「关于about」页面的承载页面，具体展示取决于page.type -->
 
-<!-- last: 按年份把文章分组，当前遍历到的年份 -->
-<!-- now: 当前遍历到的文章的发布年份 -->
 
-<div class="container archives">
-  <div class="post-list">
-    
-        <!-- 后续文章的发布年份呈现 -->
-        <div class="content-title">
-          <h2>
-            <span>2022</span>
-          </h2>
+  <!-- LaTex Display -->
+
+  
+    <script async type="text/javascript" src="/plugins/mathjax/tex-chtml.js"></script>
+  
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']]
+      }
+    }
+  </script>
+
+
+
+
+
+  <!-- clipboard -->
+
+  
+    <script async type="text/javascript" src="/plugins/clipboard.min.js"></script>
+  
+  
+<script src="/js/codeCopy.js"></script>
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  <!-- 文章内容页 url形式：https://yoursite/文章标题/ -->
+  <div class="container post-details" id="post-details">
+    <div class="post-content">
+      <div class="post-title">加密测试</div>
+      <div class="post-attach">
+        <span class="post-pubtime">
+          <i class="iconfont icon-updatetime mr-10" title="更新时间"></i>
+          2022-10-03 15:49:14
+        </span>
+        
+              <span class="post-tags">
+                <i class="iconfont icon-tags mr-10" title="标签"></i>
+                
+                <span class="span--tag mr-8">
+                  <a href="/tags/%E6%B5%8B%E8%AF%95/" title="测试">
+                    #测试
+                  </a>
+                </span>
+                
+              </span>
+          
+      </div>
+      <div class="markdown-body">
+        <div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请输入正确的密码。" data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="3235dd6e14b11b59fe1badd7a691ed4a56ab877eced49cad0ad5617992e9779f">51fd75c2b57f7e2bb9c07fad7e81dc8d5e59daeeeb36e43df67bfaa00f95bdb3c151cd6b12352d28336a2f746f957e819d2cb6a0b31166de34a6b9bdcd27f6c47691f2253c9f24727c8bd03b190fd0674781d1bb275e23881b02117f7165ceb13daea80333b2e959fcf43ab24cc82069741f5cce758bf0abc073f729a327beade6d0e4d1ce83d640f845e180dd6c1b1bd5f02c4be66f3ef7920ba62a29f33e652b8ff0a225a2fb5126708364bc55409c</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">您好, 请点击此处，并输入正确的密码以查看内容。</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">
+      </div>
+      
+        <div class="prev-or-next">
+          <div class="post-foot-next">
+            
+              <a href="/2022/10/01/Nazo-Game/" target="_self">
+                <i class="iconfont icon-chevronleft"></i>
+                <span>上一页</span>
+              </a>
+            
+          </div>
+          <div class="post-attach">
+            <span class="post-pubtime">
+              <i class="iconfont icon-updatetime mr-10" title="更新时间"></i>
+              2022-10-03 15:49:14
+            </span>
+            
+                  <span class="post-tags">
+                    <i class="iconfont icon-tags mr-10" title="标签"></i>
+                    
+                    <span class="span--tag mr-8">
+                      <a href="/tags/%E6%B5%8B%E8%AF%95/" title="测试">
+                        #测试
+                      </a>
+                    </span>
+                    
+                  </span>
+              
+          </div>
+          <div class="post-foot-prev">
+            
+          </div>
         </div>
       
-      <div class="post-item" title="加密测试">
-        <div class="time-m-d">10-03</div>
-        <div class="title">
-          <a href="/2022/10/03/password-test/">
-            <span>加密测试</span>
-          </a>
-        </div>
-      </div>
+    </div>
     
-      <div class="post-item" title="Nazo Game答案以及个人解析">
-        <div class="time-m-d">10-01</div>
-        <div class="title">
-          <a href="/2022/10/01/Nazo-Game/">
-            <span>Nazo Game答案以及个人解析</span>
-          </a>
-        </div>
-      </div>
+
     
-      <div class="post-item" title="图片测试">
-        <div class="time-m-d">10-01</div>
-        <div class="title">
-          <a href="/2022/10/01/hello-world/">
-            <span>图片测试</span>
-          </a>
-        </div>
+      <div class="comments-container">
+        
+
+
+
+
+
+
+
       </div>
     
   </div>
-</div>
+
 
         
 <div class="footer">
@@ -406,6 +490,24 @@
 
 
         
+  
+    <div class="share-icon tools-bar-item">
+      <a href="javascript: void(0)" id="share-icon">
+        <i class="iconfont iconshare"></i>
+      </a>
+      <div class="share-content hidden">
+        
+          <a class="share-item" href="https://twitter.com/intent/tweet?text=' + %E5%8A%A0%E5%AF%86%E6%B5%8B%E8%AF%95 + '&url=' + http%3A%2F%2Fexample.com%2F2022%2F10%2F03%2Fpassword-test%2F + '" target="_blank" title="Twitter">
+            <i class="iconfont icon-twitter"></i>
+          </a>
+        
+        
+          <a class="share-item" href="https://www.facebook.com/sharer.php?u=http://example.com/2022/10/03/password-test/" target="_blank" title="Facebook">
+            <i class="iconfont icon-facebooksquare"></i>
+          </a>
+        
+      </div>
+    </div>
   
   
 <script src="/js/shares.js"></script>
