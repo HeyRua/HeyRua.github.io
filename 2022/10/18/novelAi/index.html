@@ -11,6 +11,11 @@
   
   <title>
     
+      novelAi 
+      
+      
+      |
+    
      困鸦小姐的博客
   </title>
 
@@ -97,69 +102,126 @@
 
 
       <div class="flex-container">
-        <div class="container index">
-  <div class="post-list">
-    <!-- 遍历渲染文章 -->
-    
-      <div class="post-item" title="novelAi">
-        <div class="time-m-d">2022-10-18</div>
-        <div class="title">
-          <a href="/2022/10/18/novelAi/">
-            
-              
-                <span>novelAi</span>
-              
-            
-          </a>
-        </div>
+        <!-- 文章详情页，展示文章具体内容，url形式：https://yoursite/文章标题/ -->
+<!-- 同时为「标签tag」，「朋友friend」，「分类categories」，「关于about」页面的承载页面，具体展示取决于page.type -->
+
+
+  <!-- LaTex Display -->
+
+  
+    <script async type="text/javascript" src="/plugins/mathjax/tex-chtml.js"></script>
+  
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']]
+      }
+    }
+  </script>
+
+
+
+
+
+  <!-- clipboard -->
+
+  
+    <script async type="text/javascript" src="/plugins/clipboard.min.js"></script>
+  
+  
+<script src="/js/codeCopy.js"></script>
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  <!-- 文章内容页 url形式：https://yoursite/文章标题/ -->
+  <div class="container post-details" id="post-details">
+    <div class="post-content">
+      <div class="post-title">novelAi</div>
+      <div class="post-attach">
+        <span class="post-pubtime">
+          <i class="iconfont icon-updatetime mr-10" title="更新时间"></i>
+          2022-10-18 13:04:52
+        </span>
+        
       </div>
-    
-      <div class="post-item" title="加密测试">
-        <div class="time-m-d">2022-10-03</div>
-        <div class="title">
-          <a href="/2022/10/03/password-test/">
-            
-              
-                <span>加密测试</span>
-              
-            
-          </a>
-        </div>
+      <div class="markdown-body">
+        <h1 id="常用tag"><a href="#常用tag" class="headerlink" title="常用tag"></a>常用tag</h1><h3 id="水彩绘风"><a href="#水彩绘风" class="headerlink" title="水彩绘风"></a>水彩绘风</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">watercolor</span><br></pre></td></tr></table></figure>
+<p>示例<br><img src="https://user-images.githubusercontent.com/94770106/196336690-7dce36f8-e574-4af0-b041-32417db10279.png" alt="watercolor,1 girl,fox ears,Dark blue hair,Red chest wrapped kimono,white skirt Red hem,White fox tail, Red eye shadow,Scratches on the face s-1915259849"></p>
+<h3 id="单色调"><a href="#单色调" class="headerlink" title="单色调"></a>单色调</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">flat color</span><br></pre></td></tr></table></figure>
+<p>示例<br><img src="https://user-images.githubusercontent.com/94770106/196337340-95ecd76d-6def-4ae9-8aba-814ca8dbf392.png" alt="girl,white atmosphere,flat color s-312512927"></p>
+<h1 id="一些组合"><a href="#一些组合" class="headerlink" title="一些组合"></a>一些组合</h1><h3 id="英雄联盟——阿狸"><a href="#英雄联盟——阿狸" class="headerlink" title="英雄联盟——阿狸"></a>英雄联盟——阿狸</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">girl,fox ears,Dark blue hair,Red chest wrapped kimono,white skirt Red hem,White fox <span class="built_in">tail</span>, realistic, Red eye shadow,Scratches on the face</span><br></pre></td></tr></table></figure>
+<p>示例<br><img src="https://user-images.githubusercontent.com/94770106/196338093-29c3ad40-e37d-408c-b7c2-1a2981b4d80d.png" alt="girl,fox ears,Dark blue hair,Bright Red chest wrapped kimono shirt,white skirt Red hem,White fox tail, realistic, Red eye shadow,Scratches on the face s-3584128518"><br><img src="https://user-images.githubusercontent.com/94770106/196338132-45898eb3-f8fa-4482-a93d-b337e562eeb3.png" alt="girl,fox ears,Dark blue hair,Red chest wrapped kimono,white skirt Red hem,White fox tail, realistic, Red eye shadow,Scratches on the face,Holding a blue pearl s-3583343005"></p>
+<h3 id="黑白色调的女孩子"><a href="#黑白色调的女孩子" class="headerlink" title="黑白色调的女孩子"></a>黑白色调的女孩子</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">girl,white atmosphere,flat color,High volume,apathy,longhair</span><br></pre></td></tr></table></figure>
+<p>示例<br><img src="https://user-images.githubusercontent.com/94770106/196338584-ff5d708a-f497-43bf-9854-56aee7f3ce3b.png" alt="girl,white atmosphere,flat color,High volume,apathy,longhair, s-2056249714"><br><img src="https://user-images.githubusercontent.com/94770106/196338633-7735a15a-fc31-44e1-85eb-29e6f58b652a.png" alt="girl,white atmosphere,flat color,High volume,Wizard hat s-750802477"><br><img src="https://user-images.githubusercontent.com/94770106/196338688-d50287aa-c007-485c-8a3c-abdc83a00617.png" alt="girl,white atmosphere,flat color,High volume,apathy,longhair,red eyes,Hair winding,watery blood,guro s-667281630"></p>
+
       </div>
-    
-      <div class="post-item" title="Nazo Game答案以及个人解析">
-        <div class="time-m-d">2022-10-01</div>
-        <div class="title">
-          <a href="/2022/10/01/Nazo-Game/">
+      
+        <div class="prev-or-next">
+          <div class="post-foot-next">
             
-              
-                <span>Nazo Game答案以及个人解析</span>
-              
+              <a href="/2022/10/03/password-test/" target="_self">
+                <i class="iconfont icon-chevronleft"></i>
+                <span>上一页</span>
+              </a>
             
-          </a>
+          </div>
+          <div class="post-attach">
+            <span class="post-pubtime">
+              <i class="iconfont icon-updatetime mr-10" title="更新时间"></i>
+              2022-10-18 13:04:52
+            </span>
+            
+          </div>
+          <div class="post-foot-prev">
+            
+          </div>
         </div>
-      </div>
+      
+    </div>
     
-      <div class="post-item" title="图片测试">
-        <div class="time-m-d">2022-10-01</div>
-        <div class="title">
-          <a href="/2022/10/01/hello-world/">
-            
-              
-                <span>图片测试</span>
-              
-            
-          </a>
-        </div>
+  <div id="btn-catalog" class="btn-catalog">
+    <i class="iconfont icon-catalog"></i>
+  </div>
+  <div class="post-catalog hidden" id="catalog">
+    <div class="title">目录</div>
+    <div class="catalog-content">
+      
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%B8%B8%E7%94%A8tag"><span class="toc-text">常用tag</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B0%B4%E5%BD%A9%E7%BB%98%E9%A3%8E"><span class="toc-text">水彩绘风</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8D%95%E8%89%B2%E8%B0%83"><span class="toc-text">单色调</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%80%E4%BA%9B%E7%BB%84%E5%90%88"><span class="toc-text">一些组合</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E2%80%94%E2%80%94%E9%98%BF%E7%8B%B8"><span class="toc-text">英雄联盟——阿狸</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%BB%91%E7%99%BD%E8%89%B2%E8%B0%83%E7%9A%84%E5%A5%B3%E5%AD%A9%E5%AD%90"><span class="toc-text">黑白色调的女孩子</span></a></li></ol></li></ol></li></ol>
+      
+    </div>
+  </div>
+
+  
+<script src="/js/catalog.js"></script>
+
+
+
+
+    
+      <div class="comments-container">
+        
+
+
+
+
+
+
+
       </div>
     
   </div>
-  <nav class="post-navigation">
-    
-    <span class="page-num">1 / 1</span>
-    
-  </nav>
-</div>
+
 
         
 <div class="footer">
@@ -420,6 +482,24 @@
 
 
         
+  
+    <div class="share-icon tools-bar-item">
+      <a href="javascript: void(0)" id="share-icon">
+        <i class="iconfont iconshare"></i>
+      </a>
+      <div class="share-content hidden">
+        
+          <a class="share-item" href="https://twitter.com/intent/tweet?text=' + novelAi + '&url=' + http%3A%2F%2Fexample.com%2F2022%2F10%2F18%2FnovelAi%2F + '" target="_blank" title="Twitter">
+            <i class="iconfont icon-twitter"></i>
+          </a>
+        
+        
+          <a class="share-item" href="https://www.facebook.com/sharer.php?u=http://example.com/2022/10/18/novelAi/" target="_blank" title="Facebook">
+            <i class="iconfont icon-facebooksquare"></i>
+          </a>
+        
+      </div>
+    </div>
   
   
 <script src="/js/shares.js"></script>
